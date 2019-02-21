@@ -47,6 +47,7 @@ function CallAPI($city)
     $app_id = '731fdb9f46272f54a8b68c894765410b';
     $url = 'https://api.openweathermap.org/data/2.5/forecast?q='.$city.'&mode=json&appid='.$app_id;
     $curl = curl_init();
+    // test commit
 
     // Optional Authentication:
     curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
